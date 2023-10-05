@@ -1,0 +1,183 @@
+.one-block {
+    background: url(../img/11.jpg);
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    background-size: cover ;
+
+}
+
+
+.label {
+    display: flex;
+    width: 200px;
+    height: 60px;
+    //flex-shrink: 0; 
+    padding-top: 20px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+    //margin-top: 20px ;
+}
+
+.label-img {
+    background: url(../img/CyberpunkSVG.svg);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    
+}
+
+
+
+.img-social-media{
+
+    display: flex;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+//Текстовый блок
+.one-block-text {
+    
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 207px;
+}
+//поставить на другое место
+.one-block-backgound {
+    margin-top: 20;
+    width: 320px;
+    height: 207px;
+
+    //background-color: yellow;
+
+    background: linear-gradient(135deg, transparent 25px, rgb(250, 255, 0) 0) top left,
+
+    linear-gradient(-135deg, transparent 0px, rgb(250, 255, 0) 0) top right,
+    
+    linear-gradient(-45deg, transparent 25px, rgb(250, 255, 0) 0) bottom right,
+    
+    linear-gradient(45deg, transparent 0px, rgb(250, 255, 0) 0) bottom left;
+    background-size: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+.one-block-text-bottom {
+    margin-top: 30px;
+    display: flex;
+    text-align: center;
+    width: 295px;
+    height: 62px;
+    font-size: 30px;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.one-block-text-button {
+    width: 244px;
+    height: 60px;
+    //Норм но надлюдать
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+    margin-top: 25px;
+
+}
+
+.one-block-text-button-p {
+    
+    text-align: center;
+    color: #F8F200;;
+    font-size: 20px; 
+    padding: 19px 50px; 
+    
+}
+
+
+@media screen and (min-width: 1024px) {
+    //Блок 1
+    .one-blockImg {
+        display: flex;
+        // justify-content: center;
+        padding-left: 36px;
+        align-items: center;
+        justify-content: space-between;
+        margin-left: 0;
+        margin-right: 0;
+        
+    }
+    .label {
+        margin-left: 0;
+        margin-right: 0;
+        display: flex;
+        justify-content: space-around;
+
+    }
+
+    .img-social-media {
+        width: 500px;
+        height: 30px;
+    }
+    //клсяк поправить проблема из за ошибаки картинки
+    //косяк не там, миша что ото натыкал
+    .one-block-text {
+        width: 100%;
+        height: 369px;
+        justify-content: flex-end;
+    }
+
+    .one-block-backgound {
+        
+        width: 624px;
+        height: 369px;
+        margin-right: 36px;
+        
+    }
+
+    .one-block-text-bottom {
+        width: 484px; 
+        height: 126px;
+        margin-left: 0;
+        margin-right: 0;
+        text-align:inherit;
+        margin: 70px 70px 0px 70px;
+        font-size: 62px; 
+        
+    }
+
+    .one-block-text-button {
+        width: 272px; 
+        height: 78  px;
+        margin-left: 0;
+        margin-right: 0;
+        margin: 25px 282px 70px 70px;
+        align-items: center;
+        
+        .one-block-text-button-p {
+            font-size: 25px;
+        }
+        
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    //Блок 1
+    .one-blockImg {
+        justify-content: space-around;
+    }
+    .one-block-backgound {
+        margin-right: 320px;
+    }
+}
