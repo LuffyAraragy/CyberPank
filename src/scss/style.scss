@@ -4,6 +4,35 @@
 
 }
 
+// .test-grid-1 {
+//     width: 1000px;
+//     height: 1000px;
+//     display: grid;
+//     grid-template-columns: 1fr 1fr 1fr;
+//     grid-template-rows: 100px 200px 300px;
+    
+
+//     grid-template-areas: 
+//     "one-block two-block two-block"
+//     "three-block fore-block fore-block"
+//     "five-block six-block six-block";
+// }
+
+// .one {
+//     background: blueviolet;
+//     grid-area: two-block;
+// }
+    
+// .two {
+//     background: yellow;
+//     grid-area: five-block;
+// }
+
+// .three {
+//     grid-area: six-block;
+//     background: green
+// }
+
 
 @import "up-footer";
 @import "description";
@@ -13,12 +42,9 @@
 
 
 
-@media screen and (min-width: 1024px) {
 
-}
+//@media screen and (min-width: 1024px)
+//@media screen and (min-width: 1337px) 
 
-@media screen and (min-width: 1337px) {
 
-    
-}
 

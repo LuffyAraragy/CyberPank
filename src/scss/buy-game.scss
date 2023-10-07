@@ -1,5 +1,5 @@
 
-.five-block-1 {
+.block-buy-game-1 {
     display: grid;
     background: url(../img/Untitled1.svg);
     height: 198px;
@@ -7,7 +7,7 @@
     margin-right: auto;
 }
 
-.five-block-2 {
+.block-buy-game-2 {
     background: rgb(0, 0, 0);
     
     
@@ -137,7 +137,7 @@
 @media screen and (min-width: 1024px) {
     //Блок 5
 
-    .five-block-3 {
+    .block-buy-game-3 {
         display: flex;
         justify-content: space-around;
         
@@ -163,13 +163,13 @@
         }
     }
 
-    .five-block {
-        .five-block-grid-img-text {
+    .block-buy-game {
+        .block-buy-game-grid-img-text {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
             
             //костыль с изображением
-            .five-block-1 {
+            .block-buy-game-1 {
                 margin-left: 0;
                 margin-right: 0;
                 width: auto;
@@ -178,7 +178,7 @@
                 background-size: 100%;
             }
 
-            .five-block-2 {
+            .block-buy-game-2 {
                 grid-column: 2/ 4;
                 padding-left: 32px;
             }
@@ -205,7 +205,7 @@
                 grid-template-columns: repeat(2, 160px);
             }
 
-            .five-block-3 {
+            .block-buy-game-3 {
                 display: grid;
                 grid-template-columns: repeat(4, 1fr);
 
@@ -224,16 +224,16 @@
 @media screen and (min-width: 1920px) {
     //Блок 5
     
-    .five-block .five-block-grid-img-text {
+    .block-buy-game .block-buy-game-grid-img-text {
         //Всё должно правильно работать но не работате
         display: grid;
         grid-template-columns: repeat(4, 1fr);
 
-        .five-block-1 {
+        .block-buy-game-1 {
             grid-column: 1/3;
         }
 
-        .five-block-2 {
+        .block-buy-game-2 {
             grid-column: 3/5;
         }
 

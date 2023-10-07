@@ -1,4 +1,4 @@
-.one-block {
+.up-footer {
     background: url(../img/11.jpg);
     background-position: center;
     width: 100vw;
@@ -41,7 +41,7 @@
 }
 
 //Текстовый блок
-.one-block-text {
+.up-footer-description {
     
     
     display: flex;
@@ -72,7 +72,7 @@
     background-repeat: no-repeat;
 }
 
-.one-block-text-bottom {
+.up-footer-text {
     margin-top: 30px;
     display: flex;
     text-align: center;
@@ -85,7 +85,7 @@
     
 }
 
-.one-block-text-button {
+.up-footer-description-button {
     width: 244px;
     height: 60px;
     //Норм но надлюдать
@@ -96,7 +96,7 @@
 
 }
 
-.one-block-text-button-p {
+.up-footer-description-button-p {
     
     text-align: center;
     color: #F8F200;;
@@ -132,7 +132,7 @@
     }
     //клсяк поправить проблема из за ошибаки картинки
     //косяк не там, миша что ото натыкал
-    .one-block-text {
+    .up-footer-description {
         width: 100%;
         height: 369px;
         justify-content: flex-end;
@@ -146,7 +146,7 @@
         
     }
 
-    .one-block-text-bottom {
+    .up-footer-text {
         width: 484px; 
         height: 126px;
         margin-left: 0;
@@ -157,7 +157,7 @@
         
     }
 
-    .one-block-text-button {
+    .up-footer-description-button {
         width: 272px; 
         height: 78  px;
         margin-left: 0;
@@ -165,7 +165,7 @@
         margin: 25px 282px 70px 70px;
         align-items: center;
         
-        .one-block-text-button-p {
+        .up-footer-description-button-p {
             font-size: 25px;
         }
         
