@@ -3,6 +3,8 @@
     padding: 0px;
 
 }
+@import "fonts";
+
 
 // .test-grid-1 {
 //     width: 1000px;
@@ -40,8 +42,23 @@
 @import "advertising";
 @import "buy-game";
 
+body {
+    // display: flex;
+    // flex-wrap: wrap;// перено блоков нановую строку
+    // align-items: center; //выравнивание по дочерний линии 
+    // justify-content: center; //выравнивание основной линии
+    // flex-direction: column;//позволяет поменять основую ось на дочернюю
+    // align-self: center;// выравнивание по поперечной оси в виде шахмотной доски
+    // order: 1;//управление порядком блоков которые нахдяться вниутри
+    // justify-self: center; //выравнивание по оси строки  внутри самого блока элемента , может прижимать кверху сетки и т д
+    // justify-items: center; //выравнивание по оси строки внутри самого блока элемента , может прижимать кверху сетки и т д
+    // align-self: center;//выравниввание по оси столбца
+    // align-items: center;//выравниввание по оси столбца
+    // row-gap: 2px;// создаёт отступы между строками 
+    // column-gap: 2px;// создаёт отступы между колонками
 
 
+}
 
 //@media screen and (min-width: 1024px)
 //@media screen and (min-width: 1337px) 

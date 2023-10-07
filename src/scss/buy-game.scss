@@ -1,3 +1,8 @@
+.three-block-text {
+    color: #FFF;
+    font-size: 30px;
+    font-family: Archangelsk;
+}
 
 .block-buy-game-1 {
     display: grid;
@@ -189,14 +194,20 @@
                 margin-right: 0;
                 font-size: 62px;
                 width:600px;
+                color: #FFF;
+                
+
+                &--small {
+                    font-size: 24px;
+                }
             }
 
-            #five-cyberpunk-text-1 {
-                font-size: 24px;
-            }
-            #five-cyberpunk-text-2 {
-                font-size: 24px;
-            }
+            // #five-cyberpunk-text-1 {
+            //     font-size: 24px;
+            // }
+            // #five-cyberpunk-text-2 {
+            //     font-size: 24px;
+            // }
 
             .consoles-img {
                 margin-top: 25px;
